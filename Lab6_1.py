@@ -5,7 +5,7 @@ from sklearn.cluster import AgglomerativeClustering
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv('data.csv')
+data = pd.read_csv('lab6_1.csv')
 
 # Perform hierarchical agglomerative clustering
 clustering = AgglomerativeClustering(n_clusters=3).fit(data)

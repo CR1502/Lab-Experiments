@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 # Load the dataset
-data = pd.read_csv('data.csv')
+data = pd.read_csv('lab6_2.csv')
 
 # Perform k-means clustering
 clustering = KMeans(n_clusters=3).fit(data)
