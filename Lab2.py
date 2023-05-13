@@ -17,3 +17,4 @@ pca_matrix = pca.transform(matrix)
 print("Original matrix:\n", matrix)
 print("SVD matrix:\n", svd_matrix)
 print("PCA matrix:\n", pca_matrix)
+
