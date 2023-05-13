@@ -13,3 +13,5 @@ clustering = KMeans(n_clusters=3).fit(data)
 # Visualize the results
 plt.scatter(data['x'], data['y'], c=clustering.labels_)
 plt.show()
+
+
